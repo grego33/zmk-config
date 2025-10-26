@@ -68,7 +68,7 @@
 
         keyboard_controls {
             bindings = <
-&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &studio_unlock
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                         &trans        &trans        &trans          &trans  &trans  &trans
@@ -90,6 +90,15 @@
 &none      &none            &none        &kp SLASH  &kp LEFT_BRACE  &kp LBKT       &kp RBKT   &kp RIGHT_BRACE  &kp BACKSLASH  &kp MINUS             &kp PLUS               &kp PIPE
 &none      &none            &none        &none      &none           &none          &none      &none            &none          &kp UNDERSCORE        &kp EQUAL              &none
                                          &none      &none           &none          &none      &none            &none
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
